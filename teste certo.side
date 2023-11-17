@@ -1,0 +1,688 @@
+{
+  "id": "ee1a023b-e139-4235-b5ce-86f50c7ab34e",
+  "version": "2.0",
+  "name": "teste errado",
+  "url": "https://www.alura.com.br/",
+  "tests": [{
+    "id": "168c1f7f-6c2f-4a07-ab57-df9c085e284b",
+    "name": "teste certo",
+    "commands": [{
+      "id": "3acefc56-c72e-49be-ab3e-80897702a7c5",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.alura.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c17d10d-a66e-405d-9783-087d0a406fe9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ef60a0f-da91-4f48-a21c-15a3603937a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\--mobile .categories__link--home",
+      "targets": [
+        ["css=.\\--mobile .categories__link--home", "css:finder"],
+        ["xpath=//a[contains(@href, '/escola-mobile')]", "xpath:href"],
+        ["xpath=//div[7]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6277a331-9b7b-4d4f-b254-1fd5d6f438e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.school-link--courses > p",
+      "targets": [
+        ["css=.school-link--courses > p", "css:finder"],
+        ["xpath=//section[2]/div/a/p", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4754",
+      "windowTimeout": 2000
+    }, {
+      "id": "e43c7c6a-de33-4b2a-8be2-5a760e03bba4",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4754}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40a9a1d1-283b-496c-a994-0dddd348f5c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtro-subcategorias__lista",
+      "targets": [
+        ["css=.filtro-subcategorias__lista", "css:finder"],
+        ["xpath=//section/div/div/ul", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34b39b39-257b-49c4-824a-a4a7519312a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.filtro-subcategorias__item:nth-child(6) .filtro-subcategorias__nome",
+      "targets": [
+        ["css=.filtro-subcategorias__item:nth-child(6) .filtro-subcategorias__nome", "css:finder"],
+        ["xpath=//section/div/div/ul/li[6]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Jogos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e63f2ee-c555-49ea-930e-dde5f804ddfe",
+      "comment": "",
+      "command": "click",
+      "target": "css=.lista-guides__item--template:nth-child(13) > .lista-guides__link",
+      "targets": [
+        ["css=.lista-guides__item--template:nth-child(13) > .lista-guides__link", "css:finder"],
+        ["xpath=//ul[@id='lc']/li[13]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/formacao-arquitetura-android')]", "xpath:href"],
+        ["xpath=//li[13]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7bea555c-3d72-45f8-8f8c-2e613b346277",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\--design-ux > .header__nav--courses-item-link",
+      "targets": [
+        ["css=.\\--design-ux > .header__nav--courses-item-link", "css:finder"],
+        ["xpath=//a[contains(@href, '/cursos-online-design-ux')]", "xpath:href"],
+        ["xpath=//li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d126a4aa-500b-4b8b-995c-bcf51e7e6c37",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.header__nav--ctas-matricule",
+      "targets": [
+        ["css=.header__nav--ctas-matricule", "css:finder"],
+        ["xpath=//a[contains(text(),'Matricule-se')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/planos-cursos-online')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b0f4b0d-3293-439c-a2e8-4ba42cfd2fdf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.header__nav--ctas-matricule",
+      "targets": [
+        ["css=.header__nav--ctas-matricule", "css:finder"],
+        ["xpath=//a[contains(text(),'Matricule-se')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/planos-cursos-online')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1636d27-023d-4433-a319-9732cfbf03ac",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.header__nav--ctas-matricule",
+      "targets": [
+        ["css=.header__nav--ctas-matricule", "css:finder"],
+        ["xpath=//a[contains(text(),'Matricule-se')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/planos-cursos-online')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d87ad44-d679-41cb-abd0-76218cb5c80b",
+      "comment": "",
+      "command": "click",
+      "target": "id=subscribe-link-Plus",
+      "targets": [
+        ["id=subscribe-link-Plus", "id"],
+        ["css=#subscribe-link-Plus", "css:finder"],
+        ["xpath=(//a[contains(text(),'Matricule-se')])[2]", "xpath:link"],
+        ["xpath=//a[@id='subscribe-link-Plus']", "xpath:attributes"],
+        ["xpath=//div[@id='plus']/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/compra/plus/')]", "xpath:href"],
+        ["xpath=//div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12c9b7eb-6b34-4b6e-b183-12b1df6de851",
+      "comment": "",
+      "command": "click",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.\\--name", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//div[@id='basic-informations']/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d1414c0a-85c0-4647-ae9d-5c26c8a457b2",
+      "comment": "",
+      "command": "type",
+      "target": "name=name",
+      "targets": [
+        ["name=name", "name"],
+        ["css=.\\--name", "css:finder"],
+        ["xpath=//input[@name='name']", "xpath:attributes"],
+        ["xpath=//div[@id='basic-informations']/div/div/label/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "judite martins medeiros"
+    }, {
+      "id": "9bb29aee-c502-4cda-8e20-0e21cde8a054",
+      "comment": "",
+      "command": "click",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.\\--email", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='basic-informations']/div[2]/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2132cf42-565b-43f3-a6a9-196897dc0343",
+      "comment": "",
+      "command": "type",
+      "target": "name=email",
+      "targets": [
+        ["name=email", "name"],
+        ["css=.\\--email", "css:finder"],
+        ["xpath=//input[@name='email']", "xpath:attributes"],
+        ["xpath=//div[@id='basic-informations']/div[2]/div/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/label/input", "xpath:position"]
+      ],
+      "value": "marcelinha123@gmail.com"
+    }, {
+      "id": "36fc7636-8d95-4efc-89c0-aa4b0c6cccb9",
+      "comment": "",
+      "command": "click",
+      "target": "name=phone",
+      "targets": [
+        ["name=phone", "name"],
+        ["css=.payment-form__label > .\\--phone", "css:finder"],
+        ["xpath=//input[@name='phone']", "xpath:attributes"],
+        ["xpath=//div[@id='basic-informations']/div[2]/div[2]/label/input", "xpath:idRelative"],
+        ["xpath=//div[2]/label/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d3270784-8b41-4b76-835c-e66d0827ac85",
+    "name": "deu errado",
+    "commands": [{
+      "id": "c946dfb9-cda2-4e06-a8f0-b16a8e37c1bd",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.nike.com.br/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dcfbe678-394c-4267-b6ec-3aca5f377334",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e962c368-3de7-4a99-ae63-93bd71f193c8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Masculino",
+      "targets": [
+        ["linkText=Masculino", "linkText"],
+        ["css=.Menu-styled__CategoryMenu-sc-a722998c-14:nth-child(3) > .SectionLink-styled__SectionLink-sc-499d0fb6-0", "css:finder"],
+        ["xpath=//a[contains(text(),'Masculino')]", "xpath:link"],
+        ["xpath=//header[@id='navigationHeader']/div/div[2]/div/div[2]/div/div[2]/nav/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sc/masculino-1')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Masculino')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b32e2b37-ff76-4e22-b848-d87c2dc5c51a",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Masculino",
+      "targets": [
+        ["linkText=Masculino", "linkText"],
+        ["css=.Menu-styled__CategoryMenu-sc-a722998c-14:nth-child(3) > .SectionLink-styled__SectionLink-sc-499d0fb6-0", "css:finder"],
+        ["xpath=(//a[contains(text(),'Masculino')])[3]", "xpath:link"],
+        ["xpath=//header[@id='navigationHeader']/div/div[2]/div/div[2]/div/div[2]/nav/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sc/masculino-1')]", "xpath:href"],
+        ["xpath=//nav/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3194f2fb-16a2-4eff-a038-4b79986c2fa2",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,814)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca967366-82cb-4cf2-9598-f26fb92dd69f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1300)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "805d6306-28b0-4a4e-9a26-a7f66c649912",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Feminino",
+      "targets": [
+        ["linkText=Feminino", "linkText"],
+        ["css=.Menu-styled__CategoryMenu-sc-a722998c-14:nth-child(4) > .SectionLink-styled__SectionLink-sc-499d0fb6-0", "css:finder"],
+        ["xpath=//a[contains(text(),'Feminino')]", "xpath:link"],
+        ["xpath=//header[@id='navigationHeader']/div/div[2]/div/div[2]/div/div[2]/nav/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sc/feminino-1')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Feminino')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c874b50a-5087-45a6-816f-773ab40d12c8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Feminino",
+      "targets": [
+        ["linkText=Feminino", "linkText"],
+        ["css=.Menu-styled__CategoryMenu-sc-a722998c-14:nth-child(4) > .SectionLink-styled__SectionLink-sc-499d0fb6-0", "css:finder"],
+        ["xpath=(//a[contains(text(),'Feminino')])[3]", "xpath:link"],
+        ["xpath=//header[@id='navigationHeader']/div/div[2]/div/div[2]/div/div[2]/nav/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/sc/feminino-1')]", "xpath:href"],
+        ["xpath=//nav/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "876af778-165c-4a1a-adee-5eb17aaf3ef5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Infantil",
+      "targets": [
+        ["linkText=Infantil", "linkText"],
+        ["css=.Menu-styled__CategoryMenu-sc-a722998c-14:nth-child(5) > .SectionLink-styled__SectionLink-sc-499d0fb6-0", "css:finder"],
+        ["xpath=(//a[contains(text(),'Infantil')])[3]", "xpath:link"],
+        ["xpath=//header[@id='navigationHeader']/div/div[2]/div/div[2]/div/div[2]/nav/li[5]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/nav/idade/infantil')])[6]", "xpath:href"],
+        ["xpath=//nav/li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "104f6834-fb7e-42b8-bc24-8986c1215e18",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4e9759f-dff7-491c-a7b4-b2b06af1523b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Filters-styled__BoxColorFilter-sc-849208ac-2 > li:nth-child(8) > .Filters-styled__Anchor-sc-849208ac-3",
+      "targets": [
+        ["css=.Filters-styled__BoxColorFilter-sc-849208ac-2 > li:nth-child(8) > .Filters-styled__Anchor-sc-849208ac-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div[3]/div[2]/div/div/div/div/div[2]/div/ul/li[8]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/nav/cor/multicor/idade/infantil')]", "xpath:href"],
+        ["xpath=//li[8]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2d556d83-fc82-4ac0-9e49-927329715f90",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Filters-styled__BoxColorFilter-sc-849208ac-2 > li:nth-child(11) > .Filters-styled__Anchor-sc-849208ac-3",
+      "targets": [
+        ["css=.Filters-styled__BoxColorFilter-sc-849208ac-2 > li:nth-child(11) > .Filters-styled__Anchor-sc-849208ac-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div[3]/div[2]/div/div/div/div/div[2]/div/ul/li[11]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/nav/cor/roxo/idade/infantil')]", "xpath:href"],
+        ["xpath=//li[11]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e90288fd-8d26-4f31-9144-19622118acd0",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.gKaOFq > li:nth-child(3) > .Filters-styled__Anchor-sc-849208ac-3",
+      "targets": [
+        ["css=.gKaOFq > li:nth-child(3) > .Filters-styled__Anchor-sc-849208ac-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div[3]/div[2]/div/div/div/div[2]/div[2]/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/nav/cor/roxo/idade/infantil/tamanho/185')]", "xpath:href"],
+        ["xpath=//ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1aaef83c-79fa-4f88-82d2-063a6d50c460",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.gKaOFq > li:nth-child(3) > .Filters-styled__Anchor-sc-849208ac-3",
+      "targets": [
+        ["css=.gKaOFq > li:nth-child(3) > .Filters-styled__Anchor-sc-849208ac-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div[3]/div[2]/div/div/div/div[2]/div[2]/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/nav/cor/roxo/idade/infantil/tamanho/185')]", "xpath:href"],
+        ["xpath=//ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "503d48f7-cf2d-4769-a690-f9fc1d413751",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Filters-styled__BoxSizeFilter-sc-849208ac-1 > li:nth-child(7) > .Filters-styled__Anchor-sc-849208ac-3",
+      "targets": [
+        ["css=.Filters-styled__BoxSizeFilter-sc-849208ac-1 > li:nth-child(7) > .Filters-styled__Anchor-sc-849208ac-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div[3]/div[2]/div/div/div/div[2]/div[2]/div/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/nav/cor/roxo/idade/infantil/tamanho/24')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1799331d-cec2-4ceb-91f4-5b8c02789772",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Filters-styled__BoxSizeFilter-sc-849208ac-1 > li:nth-child(7) > .Filters-styled__Anchor-sc-849208ac-3",
+      "targets": [
+        ["css=.Filters-styled__BoxSizeFilter-sc-849208ac-1 > li:nth-child(7) > .Filters-styled__Anchor-sc-849208ac-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div[3]/div[2]/div/div/div/div[2]/div[2]/div/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/nav/cor/roxo/idade/infantil/tamanho/24')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "54a401bd-86cf-476c-b99d-243ec394efb7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=li:nth-child(7) > .Filters-styled__Anchor-sc-849208ac-3",
+      "targets": [
+        ["css=li:nth-child(7) > .Filters-styled__Anchor-sc-849208ac-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div[3]/div[2]/div/div/div/div[2]/div[2]/div/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/nav/cor/roxo/idade/infantil')])[8]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e2c4aee9-ca8c-4b4a-bc7c-1ff5fbc34ff1",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=li:nth-child(7) > .Filters-styled__Anchor-sc-849208ac-3",
+      "targets": [
+        ["css=li:nth-child(7) > .Filters-styled__Anchor-sc-849208ac-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div[3]/div[2]/div/div/div/div[2]/div[2]/div/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/nav/cor/roxo/idade/infantil')])[8]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "04cbf563-8f91-4c4d-b9f0-2fa516d5e4c9",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#Pre\\E7o-filter .Typography-styled__StyledParagraph-sc-8f9244e7-2",
+      "targets": [
+        ["css=#Pre\\E7o-filter .Typography-styled__StyledParagraph-sc-8f9244e7-2", "css:finder"],
+        ["xpath=//button[@id='Preço-filter']/div/h2", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Preço')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6458fe9d-9447-4148-b391-a6dd382853fc",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#Pre\\E7o-filter .Typography-styled__StyledParagraph-sc-8f9244e7-2",
+      "targets": [
+        ["css=#Pre\\E7o-filter .Typography-styled__StyledParagraph-sc-8f9244e7-2", "css:finder"],
+        ["xpath=//button[@id='Preço-filter']/div/h2", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Preço')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dfd9ce4f-3c44-47f1-ac32-a0717e52ba5c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gasKAe .Filters-styled__CheckBoxList-sc-849208ac-6:nth-child(2) > .Filters-styled__Anchor-sc-849208ac-3",
+      "targets": [
+        ["css=.gasKAe .Filters-styled__CheckBoxList-sc-849208ac-6:nth-child(2) > .Filters-styled__Anchor-sc-849208ac-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div[3]/div[2]/div/div/div/div[3]/div[2]/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/nav/cor/roxo/idade/infantil/preco/r200r300/tamanho/24')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b75f1425-91bb-42b7-b9db-2fdf9e9e3ab1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=Modelos-filter",
+      "targets": [
+        ["id=Modelos-filter", "id"],
+        ["css=#Modelos-filter", "css:finder"],
+        ["xpath=//button[@id='Modelos-filter']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div[3]/div[2]/div/div/div/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Modelos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ba8476a0-d93a-4914-803a-4d1fd210a40d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=Modelos-filter",
+      "targets": [
+        ["id=Modelos-filter", "id"],
+        ["css=#Modelos-filter", "css:finder"],
+        ["xpath=//button[@id='Modelos-filter']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div[3]/div[2]/div/div/div/div[4]/div/button", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Modelos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43e2fd04-e122-444b-971e-4b2c30d11a24",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Modelos-filter .Typography-styled__StyledParagraph-sc-8f9244e7-2",
+      "targets": [
+        ["css=#Modelos-filter .Typography-styled__StyledParagraph-sc-8f9244e7-2", "css:finder"],
+        ["xpath=//button[@id='Modelos-filter']/div/h2", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Modelos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "90fceb01-2aca-4725-910d-dcc054b1cfe9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Modelos-filter .Typography-styled__StyledParagraph-sc-8f9244e7-2",
+      "targets": [
+        ["css=#Modelos-filter .Typography-styled__StyledParagraph-sc-8f9244e7-2", "css:finder"],
+        ["xpath=//button[@id='Modelos-filter']/div/h2", "xpath:idRelative"],
+        ["xpath=//div[4]/div/button/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Modelos')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "09847d24-b234-4fa8-bd07-7d6a1e52da55",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Idade-filter .Typography-styled__StyledParagraph-sc-8f9244e7-2",
+      "targets": [
+        ["css=#Idade-filter .Typography-styled__StyledParagraph-sc-8f9244e7-2", "css:finder"],
+        ["xpath=//button[@id='Idade-filter']/div/h2", "xpath:idRelative"],
+        ["xpath=//div[6]/div/button/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Idade')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d9a4d52f-e6be-417b-b0d8-f11cd08f5e7b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#Idade-filter .Typography-styled__StyledParagraph-sc-8f9244e7-2",
+      "targets": [
+        ["css=#Idade-filter .Typography-styled__StyledParagraph-sc-8f9244e7-2", "css:finder"],
+        ["xpath=//button[@id='Idade-filter']/div/h2", "xpath:idRelative"],
+        ["xpath=//div[6]/div/button/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Idade')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69a1e8ac-91f3-4cf3-8c60-05e94512ae0d",
+      "comment": "",
+      "command": "click",
+      "target": "id=Esportes-filter",
+      "targets": [
+        ["id=Esportes-filter", "id"],
+        ["css=#Esportes-filter", "css:finder"],
+        ["xpath=//button[@id='Esportes-filter']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div[3]/div[2]/div/div/div/div[7]/div/button", "xpath:idRelative"],
+        ["xpath=//div[7]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Esportes')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "01672412-cdef-4067-a4ea-ab0127c34e98",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(7) .Filters-styled__CheckBoxList-sc-849208ac-6:nth-child(1) > .Filters-styled__Anchor-sc-849208ac-3",
+      "targets": [
+        ["css=div:nth-child(7) .Filters-styled__CheckBoxList-sc-849208ac-6:nth-child(1) > .Filters-styled__Anchor-sc-849208ac-3", "css:finder"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div[3]/div[2]/div/div/div/div[7]/div[2]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/nav/cor/roxo/esportes/casual/idade/infantil/preco/r200r300/tamanho/24')]", "xpath:href"],
+        ["xpath=//div[7]/div[2]/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "67a96ea7-79ec-4b16-bd15-f4f30088afaf",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f44b1bb0-ee7e-4867-a008-f1ff1a8f1757",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ProductCard-styled__ProductCardContainer-sc-756bba1b-5:nth-child(2) .ProductImage__ProductImageStyled-sc-1a08f717-0",
+      "targets": [
+        ["css=.ProductCard-styled__ProductCardContainer-sc-756bba1b-5:nth-child(2) .ProductImage__ProductImageStyled-sc-1a08f717-0", "css:finder"],
+        ["xpath=(//img[@alt='Bebês / Casual'])[2]", "xpath:img"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div[3]/div[2]/div[2]/div/div[2]/a/div/span/img", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95913f4d-a266-4dac-b458-7ff5cf4cd2bb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ProductCard-styled__ProductCardContainer-sc-756bba1b-5:nth-child(2) .ProductImage__ProductImageStyled-sc-1a08f717-0",
+      "targets": [
+        ["css=.ProductCard-styled__ProductCardContainer-sc-756bba1b-5:nth-child(2) .ProductImage__ProductImageStyled-sc-1a08f717-0", "css:finder"],
+        ["xpath=(//img[@alt='Bebês / Casual'])[2]", "xpath:img"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div[3]/div[2]/div[2]/div/div[2]/a/div/span/img", "xpath:idRelative"],
+        ["xpath=//div[2]/a/div/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d10f4139-1795-4475-ac9b-fea5b2a66f22",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ProductCard-styled__ProductCardContainer-sc-756bba1b-5:nth-child(1) .ProductImage__ProductImageStyled-sc-1a08f717-0",
+      "targets": [
+        ["css=.ProductCard-styled__ProductCardContainer-sc-756bba1b-5:nth-child(1) .ProductImage__ProductImageStyled-sc-1a08f717-0", "css:finder"],
+        ["xpath=//img[@alt='Bebês / Casual']", "xpath:img"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div[3]/div[2]/div[2]/div/div/div/a/div/span/img", "xpath:idRelative"],
+        ["xpath=//a/div/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5650f0c2-74a2-4b1d-baf1-5cc51c75cfae",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ProductCard-styled__ProductCardContainer-sc-756bba1b-5:nth-child(1) .ProductImage__ProductImageStyled-sc-1a08f717-0",
+      "targets": [
+        ["css=.ProductCard-styled__ProductCardContainer-sc-756bba1b-5:nth-child(1) .ProductImage__ProductImageStyled-sc-1a08f717-0", "css:finder"],
+        ["xpath=//img[@alt='Bebês / Casual']", "xpath:img"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div[3]/div[2]/div[2]/div/div/div/a/div/span/img", "xpath:idRelative"],
+        ["xpath=//a/div/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a70c6c91-9f14-46ba-b1eb-23b0c2f3acc2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ProductCard-styled__ProductCardContainer-sc-756bba1b-5:nth-child(1) .ProductImage__ProductImageStyled-sc-1a08f717-0",
+      "targets": [
+        ["css=.ProductCard-styled__ProductCardContainer-sc-756bba1b-5:nth-child(1) .ProductImage__ProductImageStyled-sc-1a08f717-0", "css:finder"],
+        ["xpath=//img[@alt='Bebês / Casual']", "xpath:img"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/div/div[3]/div[2]/div[2]/div/div/div/a/div/span/img", "xpath:idRelative"],
+        ["xpath=//a/div/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "756f476c-ad3d-4881-9c5a-e3ae0798a06f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.MainPhoto-styled__PhotosList-sc-afea01eb-0:nth-child(2) .ProductImage__ProductImageStyled-sc-1a08f717-0",
+      "targets": [
+        ["css=.MainPhoto-styled__PhotosList-sc-afea01eb-0:nth-child(2) .ProductImage__ProductImageStyled-sc-1a08f717-0", "css:finder"],
+        ["xpath=//img[@alt='Tênis Nike MD Valiant Infantil - Foto 2']", "xpath:img"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/main/div[3]/div[2]/div[2]/ul/li[2]/a/span/img", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9e82e553-1eec-421a-b194-62c7a8fdea6f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,100)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d609f26-8c52-4d9f-835b-7158eb465eda",
+      "comment": "",
+      "command": "click",
+      "target": "css=.MainPhoto-styled__PhotosList-sc-afea01eb-0:nth-child(2) .ProductImage__ProductImageStyled-sc-1a08f717-0",
+      "targets": [
+        ["css=.MainPhoto-styled__PhotosList-sc-afea01eb-0:nth-child(2) .ProductImage__ProductImageStyled-sc-1a08f717-0", "css:finder"],
+        ["xpath=//img[@alt='Tênis Nike MD Valiant Infantil - Foto 2']", "xpath:img"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/main/div[3]/div[2]/div[2]/ul/li[2]/a/span/img", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "08727d7e-4ba6-4e61-9e14-3e47d586f1e3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.MainPhoto-styled__PhotosList-sc-afea01eb-0:nth-child(2) .ProductImage__ProductImageStyled-sc-1a08f717-0",
+      "targets": [
+        ["css=.MainPhoto-styled__PhotosList-sc-afea01eb-0:nth-child(2) .ProductImage__ProductImageStyled-sc-1a08f717-0", "css:finder"],
+        ["xpath=//img[@alt='Tênis Nike MD Valiant Infantil - Foto 2']", "xpath:img"],
+        ["xpath=//div[@id='__next']/div[2]/div[2]/div/main/div[3]/div[2]/div[2]/ul/li[2]/a/span/img", "xpath:idRelative"],
+        ["xpath=//li[2]/a/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9766bd2f-2852-40d2-9aa7-62b2f9226758",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,100)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b8d4fc21-4adc-4255-9a97-5edadd1dd8dd",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["168c1f7f-6c2f-4a07-ab57-df9c085e284b"]
+  }],
+  "urls": ["https://www.alura.com.br/", "https://www.nike.com.br/"],
+  "plugins": []
+}
